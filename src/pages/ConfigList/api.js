@@ -13,5 +13,5 @@ export async function postUpdate(data) {
 }
 
 export async function postDelete(data) {
-  return axios.post("/api/job/delete", data);
+  return axios.post("/api/job/remove", data);
 }
